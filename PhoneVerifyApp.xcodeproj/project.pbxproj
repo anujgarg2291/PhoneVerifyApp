@@ -712,6 +712,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PhoneVerify/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagng.ca.cokenow.PhoneVerifyTests;
@@ -733,6 +734,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(SRCROOT)/PhoneVerify/Configuration/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagng.ca.cokenow.PhoneVerifyTests;
@@ -752,7 +754,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/anujgarg/Desktop/PhoneVerifyApp/PhoneVerify/Configuration/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PhoneVerify/Configuration/Info.plist";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagng.ca.cokenow.PhoneVerifyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -771,7 +773,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = /Users/anujgarg/Desktop/PhoneVerifyApp/PhoneVerify/Configuration/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/PhoneVerify/Configuration/Info.plist";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagng.ca.cokenow.PhoneVerifyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
