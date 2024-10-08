@@ -12,7 +12,7 @@ This is an iOS application for validating phone numbers using country codes. The
 
 	•	Local Database: If the phone number is valid, the phone number, carrier, and location are stored in a local database.
 
-	•	API Call: The app uses an API to validate the phone number and retrieve carrier and location details.
+	•	API Call: The app uses the [apilayer API](https://apilayer.com/) to validate the phone number and retrieve carrier and location details.
 
 	•	SwiftUI & Combine: Built using SwiftUI and Combine framework.
 
@@ -132,7 +132,9 @@ This project follows the MVVM (Model-View-ViewModel) architecture pattern, ensur
 •	Modules: Organized by feature, each module follows the MVVM structure:
 
 		•Model: Represents the data layer (e.g., PhoneNumberValidationResponse, Country).
+
 		•ViewModel: Handles the business logic and prepares data for the View (e.g., PhoneValidationViewModel, CountriesViewModel).
+
 		•View: UI components that bind to ViewModels (e.g., PhoneValidationView, CountryListView).
   
 •	PhoneVerifyApp: The main application logic and entry point.
