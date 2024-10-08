@@ -56,7 +56,7 @@ This is an iOS application for validating phone numbers using country codes. The
 
 	5.	If the phone number is invalid, no data will be saved. 
 
-** API Integration**
+**API Integration**
 
 The app makes an API call to validate the phone number. If the number is valid, it retrieves details like the carrier and location. 
 
