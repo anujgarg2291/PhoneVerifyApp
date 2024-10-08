@@ -49,8 +49,6 @@ struct APIService: APIServiceProtocol {
             return Fail(error: URLError(.badURL)).eraseToAnyPublisher()
         }
         
-        debugPrint("URL is \(urlString)")
-        
         return URLSession.shared.dataTaskPublisher(for: url)
             .handleEvents(receiveOutput: { output in
                 // Print the raw response data
@@ -61,7 +59,7 @@ struct APIService: APIServiceProtocol {
                     // Print the error if it occurs
                     debugPrint("Error occurred: \(error.localizedDescription)")
                 case .finished:
-                    debugPrint("Request finished successfully")
+                    debugPrint("Fetch Countries request finished Successfully")
                 }
             })
             .map(\.data)
