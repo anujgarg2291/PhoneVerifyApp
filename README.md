@@ -66,6 +66,7 @@ The app makes an API call to validate the phone number. If the number is valid, 
 When the “Validate” button is clicked, the app triggers the following flow:
 
 1.	Input Validation:
+
 	•	The app first checks whether the country code and phone number fields are filled.
 	•	If any field is empty, an appropriate error message is displayed.
 
