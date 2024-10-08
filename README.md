@@ -74,9 +74,9 @@ When the “Validate” button is clicked, the app triggers the following flow:
 2.	API Call:
 
 
-  	1. After the user enters the phone number and selects the country code, the app removes the + symbol from the country code (if present) and constructs the complete phone number.
+   	•	After the user enters the phone number and selects the country code, the app removes the + symbol from the country code (if present) and constructs the complete phone number.
 
-	2. The app then calls the validatePhoneNumber function from the APIService to validate the number using the apilayer API.
+   	•	The app then calls the validatePhoneNumber function from the APIService to validate the number using the apilayer API.
 
 Here’s the method that calls the API:
 
