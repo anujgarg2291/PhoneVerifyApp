@@ -60,6 +60,10 @@ This is an iOS application for validating phone numbers using country codes. The
 
 The app makes an API call to validate the phone number. If the number is valid, it retrieves details like the carrier and location.
 
+**License**
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 
 
