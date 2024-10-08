@@ -16,7 +16,7 @@ protocol APIServiceProtocol {
 
 
 struct APIService: APIServiceProtocol {
-    private let apiKey = "12edb5c287c5906b93a92de1d6c51e56"
+    private let apiKey = Bundle.main.object(forInfoDictionaryKey: "API_KEY") as? String ?? ""
     private let baseURL = "https://apilayer.net/api"
     
     func validatePhoneNumber(_ number: String) -> AnyPublisher<PhoneNumberValidationResponse, Error> {

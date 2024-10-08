@@ -11,7 +11,6 @@
 		6181B5A62CAD6EE2003172F4 /* PhoneValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B5A52CAD6EE2003172F4 /* PhoneValidationView.swift */; };
 		6181B5A82CAD6EE4003172F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6181B5A72CAD6EE4003172F4 /* Assets.xcassets */; };
 		6181B5AB2CAD6EE4003172F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6181B5AA2CAD6EE4003172F4 /* Preview Assets.xcassets */; };
-		6181B5B52CAD6EE4003172F4 /* PhoneVerifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B5B42CAD6EE4003172F4 /* PhoneVerifyTests.swift */; };
 		6181B5D22CAD6FFD003172F4 /* PhoneValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B5D12CAD6FFD003172F4 /* PhoneValidationViewModel.swift */; };
 		6181B5D32CAD6FFD003172F4 /* PhoneValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B5D12CAD6FFD003172F4 /* PhoneValidationViewModel.swift */; };
 		6181B5D42CAD6FFD003172F4 /* PhoneValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B5D12CAD6FFD003172F4 /* PhoneValidationViewModel.swift */; };
@@ -40,6 +39,10 @@
 		6181B6082CADD9B3003172F4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B6072CADD9B3003172F4 /* Constant.swift */; };
 		6181B6092CADD9B3003172F4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B6072CADD9B3003172F4 /* Constant.swift */; };
 		6181B60A2CADD9B3003172F4 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6181B6072CADD9B3003172F4 /* Constant.swift */; };
+		61F909B42CB5358A0056ED04 /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */; };
+		61F909B52CB5358A0056ED04 /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */; };
+		61F909B62CB5358A0056ED04 /* AppConfig.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */; };
+		61F909CE2CB549970056ED04 /* PhoneValidationViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F909CD2CB549950056ED04 /* PhoneValidationViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,7 +69,6 @@
 		6181B5A72CAD6EE4003172F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6181B5AA2CAD6EE4003172F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6181B5B02CAD6EE4003172F4 /* PhoneVerifyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneVerifyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6181B5B42CAD6EE4003172F4 /* PhoneVerifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneVerifyTests.swift; sourceTree = "<group>"; };
 		6181B5BA2CAD6EE4003172F4 /* PhoneVerifyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneVerifyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6181B5D12CAD6FFD003172F4 /* PhoneValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidationViewModel.swift; sourceTree = "<group>"; };
 		6181B5D72CAD7066003172F4 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
@@ -78,6 +80,9 @@
 		6181B5FB2CADC4A1003172F4 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		6181B6022CADCA2F003172F4 /* MockAPIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIService.swift; sourceTree = "<group>"; };
 		6181B6072CADD9B3003172F4 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = AppConfig.xcconfig; sourceTree = "<group>"; };
+		61F909C72CB53D5E0056ED04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		61F909CD2CB549950056ED04 /* PhoneValidationViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneValidationViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +132,7 @@
 		6181B5A22CAD6EE2003172F4 /* PhoneVerify */ = {
 			isa = PBXGroup;
 			children = (
+				61F909B22CB535560056ED04 /* Configuration */,
 				6181B6002CADC7EC003172F4 /* Assets */,
 				6181B5E02CAD70EC003172F4 /* Source */,
 				6181B5A32CAD6EE2003172F4 /* PhoneVerifyApp.swift */,
@@ -146,8 +152,7 @@
 		6181B5B32CAD6EE4003172F4 /* PhoneVerifyTests */ = {
 			isa = PBXGroup;
 			children = (
-				6181B6022CADCA2F003172F4 /* MockAPIService.swift */,
-				6181B5B42CAD6EE4003172F4 /* PhoneVerifyTests.swift */,
+				61F909CC2CB549630056ED04 /* PhoneVerificationTest */,
 			);
 			path = PhoneVerifyTests;
 			sourceTree = "<group>";
@@ -281,6 +286,40 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
+		61F909B22CB535560056ED04 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				61F909C72CB53D5E0056ED04 /* Info.plist */,
+				61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		61F909CC2CB549630056ED04 /* PhoneVerificationTest */ = {
+			isa = PBXGroup;
+			children = (
+				61F909D12CB549FB0056ED04 /* PhoneValidationViewModelTests */,
+				61F909D02CB549DB0056ED04 /* MockAPIService */,
+			);
+			path = PhoneVerificationTest;
+			sourceTree = "<group>";
+		};
+		61F909D02CB549DB0056ED04 /* MockAPIService */ = {
+			isa = PBXGroup;
+			children = (
+				6181B6022CADCA2F003172F4 /* MockAPIService.swift */,
+			);
+			path = MockAPIService;
+			sourceTree = "<group>";
+		};
+		61F909D12CB549FB0056ED04 /* PhoneValidationViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				61F909CD2CB549950056ED04 /* PhoneValidationViewModelTests.swift */,
+			);
+			path = PhoneValidationViewModelTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -386,6 +425,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6181B5AB2CAD6EE4003172F4 /* Preview Assets.xcassets in Resources */,
+				61F909B52CB5358A0056ED04 /* AppConfig.xcconfig in Resources */,
 				6181B5A82CAD6EE4003172F4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F909B62CB5358A0056ED04 /* AppConfig.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61F909B42CB5358A0056ED04 /* AppConfig.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,7 +480,7 @@
 				6181B6042CADCA2F003172F4 /* MockAPIService.swift in Sources */,
 				6181B5F42CADC223003172F4 /* PhoneValidationModel.xcdatamodeld in Sources */,
 				6181B6092CADD9B3003172F4 /* Constant.swift in Sources */,
-				6181B5B52CAD6EE4003172F4 /* PhoneVerifyTests.swift in Sources */,
+				61F909CE2CB549970056ED04 /* PhoneValidationViewModelTests.swift in Sources */,
 				6181B5DE2CAD70B3003172F4 /* PhoneNumberValidationResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -477,6 +519,7 @@
 /* Begin XCBuildConfiguration section */
 		6181B5C22CAD6EE4003172F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -540,6 +583,7 @@
 		};
 		6181B5C32CAD6EE4003172F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -596,6 +640,7 @@
 		};
 		6181B5C52CAD6EE4003172F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -605,6 +650,7 @@
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/anujgarg/Desktop/PhoneVerify/PhoneVerify/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -626,6 +672,7 @@
 		};
 		6181B5C62CAD6EE4003172F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -635,6 +682,7 @@
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/anujgarg/Desktop/PhoneVerify/PhoneVerify/Configuration/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -656,6 +704,7 @@
 		};
 		6181B5C82CAD6EE4003172F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -676,6 +725,7 @@
 		};
 		6181B5C92CAD6EE4003172F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F909B32CB5357A0056ED04 /* AppConfig.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -702,6 +752,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/anujgarg/Desktop/PhoneVerifyApp/PhoneVerify/Configuration/Info.plist;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagng.ca.cokenow.PhoneVerifyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -720,6 +771,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PKY757V6UJ;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = /Users/anujgarg/Desktop/PhoneVerifyApp/PhoneVerify/Configuration/Info.plist;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.instagng.ca.cokenow.PhoneVerifyUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
