@@ -58,7 +58,62 @@ This is an iOS application for validating phone numbers using country codes. The
 
 ** API Integration**
 
-The app makes an API call to validate the phone number. If the number is valid, it retrieves details like the carrier and location.
+The app makes an API call to validate the phone number. If the number is valid, it retrieves details like the carrier and location. 
+
+
+**How It Works**
+
+When the “Validate” button is clicked, the app triggers the following flow:
+
+1.	Input Validation:
+	•	The app first checks whether the country code and phone number fields are filled.
+	•	If any field is empty, an appropriate error message is displayed.
+
+2.	API Call:
+	•	After the user enters the phone number and selects the country code, the app removes the + symbol from the country code (if present) and constructs the complete phone number.
+
+•	The app then calls the validatePhoneNumber function from the APIService to validate the number using the apilayer API.
+
+Here’s the method that calls the API:
+
+func validateNumber(selectedCountryCode: String) {
+
+     guard !selectedCountryCode.isEmpty else {
+         self.errorMessage = Constants.AlertMessages.countryCodeEmpty
+         return
+     }
+     
+     guard !phoneNumber.isEmpty else {
+         self.errorMessage = Constants.AlertMessages.phoneNumberEmpty
+         return
+     }
+     
+     // Remove the + sign from the selectedCountryCode
+     let sanitizedCountryCode = selectedCountryCode.replacingOccurrences(of: "+", with: "")
+     let number = sanitizedCountryCode + phoneNumber
+     apiService.validatePhoneNumber(number)
+         .receive(on: DispatchQueue.main)
+         .sink(receiveCompletion: { completion in
+             if case .failure(let error) = completion {
+                 self.errorMessage = error.localizedDescription
+             }
+         }, receiveValue: { response in
+             if !response.valid {
+                 self.errorMessage = Constants.AlertMessages.phoneNumberInvalid
+             } else {
+                 self.validationResponse = response
+                 self.errorMessage = nil
+                 self.saveValidatedPhoneNumber(response)
+             }
+         })
+         .store(in: &cancellables)
+ }
+
+
+**3.	Handle the Response:**
+
+	•	If the phone number is valid, the response is stored in the local database, and the carrier and location details are displayed to the user.
+	•	If the phone number is invalid, an error message is shown and no data is saved.
 
 **License**
 
