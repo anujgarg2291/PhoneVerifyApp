@@ -44,5 +44,18 @@ This is an iOS application for validating phone numbers using country codes. The
 	3.	Build and run the project on an iOS device or simulator.
 
 
+ **Usage**
+
+	1.	On the main screen, click on the country code field to open the list of countries.
+
+	2.	Select a country from the list. You can use the search bar to quickly find a country.
+ 
+	3.	Enter the phone number and click “Validate”.
+
+	4.	If the phone number is valid, the details (carrier and location) will be saved in the local database.
+
+	5.	If the phone number is invalid, no data will be saved.
+
+
 
 
