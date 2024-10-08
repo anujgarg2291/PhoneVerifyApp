@@ -39,7 +39,7 @@ This is an iOS application for validating phone numbers using country codes. The
  	1.	Clone the repository to your local machine.
   		git clone https://github.com/yourusername/PhoneValidatorApp.git
 
-    	2.	Open the project in Xcode.
+	2.	Open the project in Xcode.
 
 	3.	Build and run the project on an iOS device or simulator.
 
