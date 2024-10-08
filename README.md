@@ -121,16 +121,11 @@ func validateNumber(selectedCountryCode: String) {
 
 **Architecture** 
 
-The project structure seems to follow an MVVM (Model-View-ViewModel) architecture. Here’s a breakdown of each component are: 
+This project follows the MVVM (Model-View-ViewModel) architecture pattern, ensuring a clean separation of concerns and modular structure:
 
-1. APIManager: This folder contains services related to handling API calls. In an MVVM architecture, the service layer (or network layer) is often separated to fetch or send data to external services or APIs. It would typically be called by the ViewModel when it needs data. 
-
-2. Constant: This folder seems to hold global constants that are shared across the project. Constants are often separated in such files to keep the codebase clean and to avoid magic numbers or hard-coded values. 
-
-3. DataStore 
-
-•	PhoneValidationModel: This looks like a local storage or data persistence layer. It could represent Core Data models or other persistent data structures for handling phone validation.
-•	PersistenceController: Likely responsible for managing and controlling persistent storage (e.g., Core Data stack or any other database setup).
+•	APIManager: Contains the APIService, responsible for handling all API calls and network requests.
+•	Constant: Stores global constants used throughout the project.
+•	DataStore: Manages data persistence, including models like PhoneValidationModel and the PersistenceController.
 
 
 **License**
