@@ -117,7 +117,21 @@ func validateNumber(selectedCountryCode: String) {
 **3.	Handle the Response:**
 
 	•	If the phone number is valid, the response is stored in the local database, and the carrier and location details are displayed to the user.
-	•	If the phone number is invalid, an error message is shown and no data is saved.
+	•	If the phone number is invalid, an error message is shown and no data is saved. 
+
+**Architecture** 
+
+The project structure seems to follow an MVVM (Model-View-ViewModel) architecture. Here’s a breakdown of each component are: 
+
+1. APIManager: This folder contains services related to handling API calls. In an MVVM architecture, the service layer (or network layer) is often separated to fetch or send data to external services or APIs. It would typically be called by the ViewModel when it needs data. 
+
+2. Constant: This folder seems to hold global constants that are shared across the project. Constants are often separated in such files to keep the codebase clean and to avoid magic numbers or hard-coded values. 
+
+3. DataStore 
+
+•	PhoneValidationModel: This looks like a local storage or data persistence layer. It could represent Core Data models or other persistent data structures for handling phone validation.
+•	PersistenceController: Likely responsible for managing and controlling persistent storage (e.g., Core Data stack or any other database setup).
+
 
 **License**
 
