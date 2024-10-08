@@ -124,8 +124,23 @@ func validateNumber(selectedCountryCode: String) {
 This project follows the MVVM (Model-View-ViewModel) architecture pattern, ensuring a clean separation of concerns and modular structure:
 
 •	APIManager: Contains the APIService, responsible for handling all API calls and network requests.
+
 •	Constant: Stores global constants used throughout the project.
+
 •	DataStore: Manages data persistence, including models like PhoneValidationModel and the PersistenceController.
+
+•	Modules: Organized by feature, each module follows the MVVM structure:
+
+		•Model: Represents the data layer (e.g., PhoneNumberValidationResponse, Country).
+		•ViewModel: Handles the business logic and prepares data for the View (e.g., PhoneValidationViewModel, CountriesViewModel).
+		•View: UI components that bind to ViewModels (e.g., PhoneValidationView, CountryListView).
+  
+•	PhoneVerifyApp: The main application logic and entry point.
+
+•	Preview Content: Used for SwiftUI previews and mock data.
+
+•	PhoneVerifyTests: Contains unit tests to ensure the correct behavior of the app’s logic.
+
 
 
 **License**
